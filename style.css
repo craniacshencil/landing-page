@@ -39,3 +39,56 @@ a:hover{
     font-weight: 600;
   }
 
+.intro{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  gap: 30px;
+
+  padding: 50px;
+}
+
+  .team_pic{
+    width: 500px;
+    box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .intro_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    padding: 0px;
+    max-width: 500px;
+  }
+
+    .intro_title{
+      font-size: 42px;
+      font-weight: 700;
+    }
+
+    .intro_context{
+      font-size: 18px;
+    }
+
+    .intro_button{
+      background: #d0021b;
+      max-width: 150px;
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 10px;
+
+      cursor: pointer;
+
+      color: white;
+      font-size: 16px;
+      font-weight: 900;
+    }
+
+    .intro_button:hover{
+      background: white;
+      color: #d0021b;
+      border: 1px solid #d0021b;
+    }
+
