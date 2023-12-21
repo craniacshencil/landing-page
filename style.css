@@ -21,7 +21,7 @@ a:hover{
   padding: 10px 20px;
 
   background: #d0021b;
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 12px 0 rgba(0, 0, 0, 0.2);
 
   display: flex;
 }
@@ -91,4 +91,48 @@ a:hover{
       color: #d0021b;
       border: 1px solid #d0021b;
     }
+
+.card_content{
+  background: #d0021b;
+  color: white;
+  text-align: center;
+  padding: 30px;
+
+  box-shadow: inset 0px 15px 12px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+  .card_content .title{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+
+  .card_content .container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  .card_content .item{
+    flex: auto;
+    max-width: 250px;
+  }
+
+  .card_content .item img{
+    max-width: 250px;
+    max-height: 188px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .card_content .item .info{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+
 
